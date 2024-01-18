@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Slider</title>
+		<link rel="stylesheet" href="./styles/index.css" />
+		<link rel="stylesheet" href="./styles/slider.css" />
+		<link rel="stylesheet" href="./styles/content.css" />
+		<link rel="stylesheet" href="./styles/dashboard.css" />
+		<link
+			rel="stylesheet"
+			href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+		/>
+
+		<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+	</head>
+	<body>
+		<section>
+			<div class="slider">
+				<div class="swiper">
+					<div class="swiper-wrapper">
+						<div id="1" data-name="4 сезона" class="swiper-slide">
+							<img
+								width="580"
+								height="580"
+								src="/img/pizza/1.png"
+								alt="pizza"
+							/>
+						</div>
+						<div id="2" data-name="Bon appetit" class="swiper-slide">
+							<img
+								width="580"
+								height="580"
+								src="/img/pizza/2.png"
+								alt="pizza"
+							/>
+						</div>
+						<div id="3" data-name="Баварская" class="swiper-slide">
+							<img
+								width="580"
+								height="580"
+								src="/img/pizza/3.png"
+								alt="pizza"
+							/>
+						</div>
+						<div id="4" data-name="Деревенская" class="swiper-slide">
+							<img
+								width="580"
+								height="580"
+								src="/img/pizza/4.png"
+								alt="pizza"
+							/>
+						</div>
+						<div id="5" data-name="Карбонара" class="swiper-slide">
+							<img
+								width="580"
+								height="580"
+								src="/img/pizza/5.png"
+								alt="pizza"
+							/>
+						</div>
+						<div id="6" data-name="Курочка терияки" class="swiper-slide">
+							<img
+								width="580"
+								height="580"
+								src="/img/pizza/6.png"
+								alt="pizza"
+							/>
+						</div>
+						<div id="7" data-name="Мясная" class="swiper-slide">
+							<img
+								width="580"
+								height="580"
+								src="/img/pizza/7.png"
+								alt="pizza"
+							/>
+						</div>
+						<div id="8" data-name="Флоренция" class="swiper-slide">
+							<img
+								width="580"
+								height="580"
+								src="/img/pizza/8.png"
+								alt="pizza"
+							/>
+						</div>
+						<div id="9" data-name="Все Готово" class="swiper-slide">
+							<img
+								width="580"
+								height="580"
+								src="/img/pizza/9.png"
+								alt="pizza"
+							/>
+						</div>
+						<div id="10" data-name="Грибная" class="swiper-slide">
+							<img
+								width="580"
+								height="580"
+								src="/img/pizza/10.png"
+								alt="pizza"
+							/>
+						</div>
+						<div id="11" data-name="Чеддер" class="swiper-slide">
+							<img
+								width="580"
+								height="580"
+								src="/img/pizza/11.png"
+								alt="pizza"
+							/>
+						</div>
+						<div id="12" data-name="Пепперони" class="swiper-slide">
+							<img
+								width="580"
+								height="580"
+								src="/img/pizza/12.png"
+								alt="pizza"
+							/>
+						</div>
+						<div id="13" data-name="Гавайская" class="swiper-slide">
+							<img
+								width="580"
+								height="580"
+								src="/img/pizza/13.png"
+								alt="pizza"
+							/>
+						</div>
+						<div id="14" data-name="Маргарита" class="swiper-slide">
+							<img
+								width="580"
+								height="580"
+								src="/img/pizza/14.png"
+								alt="pizza"
+							/>
+						</div>
+						<div id="15" data-name="С ВЕТЧИНОЙ И ГРИБАМИ" class="swiper-slide">
+							<img
+								width="580"
+								height="580"
+								src="/img/pizza/15.png"
+								alt="pizza"
+							/>
+						</div>
+						<div id="16" data-name="СЫТНАЯ" class="swiper-slide">
+							<img
+								width="580"
+								height="580"
+								src="/img/pizza/16.png"
+								alt="pizza"
+							/>
+						</div>
+						<div id="17" data-name="МЕКСИКАНСКАЯ" class="swiper-slide">
+							<img
+								width="580"
+								height="580"
+								src="/img/pizza/17.png"
+								alt="pizza"
+							/>
+						</div>
+					</div>
+					<div class="swiper-button-prev swiper__button">
+						<svg>
+							<use xlink:href="/img/icons/sprite.svg#arrow"></use>
+						</svg>
+					</div>
+					<div class="swiper-button-next swiper__button">
+						<svg>
+							<use xlink:href="/img/icons/sprite.svg#arrow"></use>
+						</svg>
+					</div>
+				</div>
+				<div class="slider__effect"></div>
+				<div class="slider__link">
+					<a href="">
+						<button class="link__button">
+							<span class="text">Где купить?</span>
+							<svg class="shape">
+								<use xlink:href="/img/icons/sprite.svg#shape"></use>
+							</svg>
+						</button>
+					</a>
+				</div>
+				<div class="slider__bottle cola">
+					<img src="./img/pepsi_standart.png" alt="standart" />
+				</div>
+				<div class="slider__bottle unactive max">
+					<img src="./img/pepsi_max.png" alt="standart" />
+				</div>
+				<div class="slider__plus">
+					<img src="./img/plus.png" alt="standart" />
+				</div>
+			</div>
+			<div class="panel">
+				<div class="panel__container">
+					<div class="panel__info">
+						<div class="info__type">ПИЦЦА</div>
+						<div id="name" class="info__name">Греческая</div>
+						<div
+							id="bonus"
+							data-type-1="и Pepsi Cola"
+							data-type-2="и Pepsi Max"
+							class="info__bonus"
+						>
+							и Pepsi Cola
+						</div>
+					</div>
+
+					<div class="panel__price">
+						<img src="./img/price.png" alt="price" />
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="content container">
+			<div class="content__img">
+				<img width="282" height="392" src="./img/pepsi.png" alt="pepsi" />
+			</div>
+			<div class="content__text">
+				<p>
+					<strong
+						>Вы студент в настоящем или прошлом? А может быть, просто в душе?
+						Тогда эта акция ко Дню студента точно для вас!</strong
+					>
+				</p>
+				<p>
+					С 22 января по 4 февраля забирайте любую пиццу из списка и напиток
+					Pepsi-Cola или Pepsi Max, 1 л, всего за 8,99 руб. при оплате набора
+					одним чеком в «Евроопт». Количество покупок не ограничено!
+				</p>
+				<p>
+					Приходите за своим суперкомбо и расскажите друзьям! Отпразднуйте
+					вкусно и весело!
+				</p>
+			</div>
+		</section>
+		<section class="dashboard container">
+			<div class="dashboard__title">Сегодня в продаже</div>
+			<div class="dashboard__list">
+				<div class="list__item">
+					<div class="item__img">
+						<img src="./img/pizza/8.png" alt="pizza" />
+					</div>
+					<div class="item__name">Флоренция</div>
+				</div>
+				<div class="list__item">
+					<div class="item__img">
+						<img src="./img/pizza/13.png" alt="pizza" />
+					</div>
+					<div class="item__name">Гавайская</div>
+				</div>
+				<div class="list__item">
+					<div class="item__img">
+						<img src="./img/pizza/3.png" alt="pizza" />
+					</div>
+					<div class="item__name">Баварская</div>
+				</div>
+				<div class="list__item">
+					<div class="item__img">
+						<img src="./img/pizza/2.png" alt="pizza" />
+					</div>
+					<div class="item__name">Bon appetit</div>
+				</div>
+				<div class="list__item">
+					<div class="item__img">
+						<img src="./img/pizza/12.png" alt="pizza" />
+					</div>
+					<div class="item__name">Пепперони</div>
+				</div>
+				<div class="list__item">
+					<div class="item__img">
+						<img src="./img/pizza/7.png" alt="pizza" />
+					</div>
+					<div class="item__name">Мясная</div>
+				</div>
+				<div class="list__item">
+					<div class="item__img">
+						<img src="./img/pizza/6.png" alt="pizza" />
+					</div>
+					<div class="item__name">Курочка Терияки</div>
+				</div>
+				<div class="list__item">
+					<div class="item__img">
+						<img src="./img/pizza/5.png" alt="pizza" />
+					</div>
+					<div class="item__name">Карбонара</div>
+				</div>
+				<div class="list__item">
+					<div class="item__img">
+						<img src="./img/pizza/11.png" alt="pizza" />
+					</div>
+					<div class="item__name">Чеддер</div>
+				</div>
+				<div class="list__item">
+					<div class="item__img">
+						<img src="./img/pizza/4.png" alt="pizza" />
+					</div>
+					<div class="item__name">Деревенская</div>
+				</div>
+				<div class="list__item">
+					<div class="item__img">
+						<img src="./img/pizza/14.png" alt="pizza" />
+					</div>
+					<div class="item__name">Маргарита</div>
+				</div>
+				<div class="list__item">
+					<div class="item__img">
+						<img src="./img/pizza/1.png" alt="pizza" />
+					</div>
+					<div class="item__name">4 сезона</div>
+				</div>
+				<div class="list__item">
+					<div class="item__img">
+						<img src="./img/pizza/9.png" alt="pizza" />
+					</div>
+					<div class="item__name">Всё готово</div>
+				</div>
+				<div class="list__item">
+					<div class="item__img">
+						<img src="./img/pizza/8.png" alt="pizza" />
+					</div>
+					<div class="item__name">Флоренция</div>
+				</div>
+			</div>
+			<div class="dashboard__list">
+				<div class="list__item">
+					<div class="item__img">
+						<img src="./img/pizza/16.png" alt="pizza" />
+					</div>
+					<div class="item__name">Сытная</div>
+				</div>
+				<div class="list__item">
+					<div class="item__img">
+						<img src="./img/pizza/17.png" alt="pizza" />
+					</div>
+					<div class="item__name">Мексиканская</div>
+				</div>
+				<div class="list__item">
+					<div class="item__img">
+						<img src="./img/pizza/15.png" alt="pizza" />
+					</div>
+					<div class="item__name">С ветчиной и грибами</div>
+				</div>
+			</div>
+			<div class="dashboard__links">
+				<a href="" class="links__product">
+					<button class="links__btn">Перечень товаров</button>
+				</a>
+				<a href="" class="links__shop">
+					<button class="links__btn">Адреса магазинов</button>
+				</a>
+			</div>
+		</section>
+		<script type="module" src="./app.js"></script>
+	</body>
+</html>

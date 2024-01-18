@@ -1,0 +1,22 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: Gilroy, sans-serif;
+}
+
+img {
+	width: 100%;
+	height: auto;
+	user-select: none;
+}
+
+.container {
+	max-width: 1280px;
+	margin: 0 auto;
+	width: 100%;
+	padding: 0px 40px;
+}
