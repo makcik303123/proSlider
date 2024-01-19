@@ -1,5 +1,9 @@
 .content {
   margin-top: 100px;
+  overflow: auto;
+}
+.content .content__text {
+  height: 100%;
 }
 .content .content__text p {
   margin-bottom: 24px;
@@ -9,6 +13,7 @@
   line-height: 152%;
 }
 .content .content__img {
+  position: relative;
   float: right;
   max-width: 282px;
 }

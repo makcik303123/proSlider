@@ -1,7 +1,9 @@
 .content {
 	margin-top: 100px;
+	overflow: auto;
 
 	.content__text {
+		height: 100%;
 		p {
 			margin-bottom: 24px;
 			color: #373c46;
@@ -11,6 +13,7 @@
 		}
 	}
 	.content__img {
+		position: relative;
 		float: right;
 		max-width: 282px;
 	}
